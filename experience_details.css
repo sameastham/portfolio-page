@@ -1,0 +1,27 @@
+h3 {
+    text-align: left;
+    color: white;
+}
+
+.hidden {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
+.responsibilities {
+    color: white;
+    font-size: 1.25em;
+}
+
+.experience-label {
+    font-size: .65em;
+    line-height: 2.5;
+}
+
+a, a:hover {
+    color:white;
+}

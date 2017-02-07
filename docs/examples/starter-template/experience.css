@@ -1,0 +1,72 @@
+body {
+  background-image: none;
+    background-color: #1E3345;
+}
+
+h1 {
+    font-size: 1.75em;
+    text-align: left;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+    margin-bottom: 50px;
+}
+
+.logo-container {
+    border: 10px solid #1E3345;
+    background-color: white;
+    padding: 0px;
+}
+
+.assurant-logo {
+    background-color: white;
+    background-image: url(company_logos/Assurant.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70px;
+    margin-top: 6px;
+    margin-bottom: 14px;
+}
+
+.renovistics-logo {
+    background-color: white;
+    background-image: url(company_logos/Renovistics.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 55px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.wrench {
+    font-size: 1.64em;
+    color:#2A2C0F;
+}
+
+h2 {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-shadow: none;
+    text-align: center;
+    font-size: 2em;
+}
+
+.job-title {
+    background-color: rgb(210,214,218);
+    padding: 10px;
+    padding-top: 1px;
+    padding-bottom: 14px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.hidden {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}

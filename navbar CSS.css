@@ -1,0 +1,51 @@
+/*Navbar Start Color*/
+
+.navbar-inverse {
+    background-color: #2A2C0F;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #767858;
+    font-size: 1.125em;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-nav>li>a:hover {
+    color: #FBFFBB !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #FBFFBB;
+    background: none;
+    border-bottom: 2px solid #FBFFBB;
+}
+
+/*Navbar Skills Color*/
+
+.navbar-inverse {
+    background-color: #1E3345;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #D3EBFE;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-nav>li>a:hover {
+    color: #E5ED5B !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #E5ED5B;
+    background: none;
+    border-bottom: 2px solid #E5ED5B;
+}
+
+/*Navbar Experience Color*/
+
+.navbar-inverse .navbar-nav>li>a {
+    font-size: 1.125em;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background: none;
+    border-bottom: 2px solid white;
+}

@@ -1,0 +1,168 @@
+body {
+  background-image: none;
+    background-color: #D3EBFF;
+}
+
+.navbar-inverse {
+    background-color: #1E3345;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #767858;
+    font-size: 1.125em;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-nav>li>a:hover {
+    color: #FBFFBB !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #FBFFBB;
+    background: none;
+    border-bottom: 2px solid #FBFFBB;
+}
+
+h1 {
+    font-size: 1.75em;
+    text-align: left;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
+    margin-bottom: 50px;
+}
+
+.fa-ul li {
+    font-size: 1.33em;
+    margin-bottom: 75px;
+}
+
+.fa-li {
+    margin-top: -35px;
+}
+
+.technologies, .technologies h1 {
+    color: #003399;
+}
+
+/* Replace info icon with face
+
+.nav ul li:first-child:before {
+    content: '';
+    display: inline-block;
+    height: 72px;
+    width: 72px;
+    background-image: url(skill_images/bootstrap-solid.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}*/
+
+.technologies ul li:nth-child(3) {
+    font-size: 1.33em;
+    margin-bottom: 75px;
+}
+
+.applications, .applications h1 {
+    color: #003399;
+}
+
+.UX, .UX h1 {
+    color: #003399;
+}
+
+.other, .other h1 {
+    color: #003399;
+}
+
+.skill-list-item {
+    display: inline-block;
+    height: 4em;
+    width: 100%;
+    background-color: rgba(30,51,69,.2);
+    background-size: 3em 3em;
+    background-position: .5em center;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    font-size: 1.33em;
+    text-align: left;
+    padding-top: 1.3em;
+    padding-left: 5em;
+    margin-bottom: 1em;
+}
+
+#CSS {
+    background-image: url(skill_images/CSS.svg);
+}
+
+#HTML {
+    background-image: url(skill_images/html.svg);
+}
+
+#bootstrap {
+    background-image: url(skill_images/bootstrap-solid.svg);
+}
+
+#angular {
+    background-image: url(skill_images/angular.svg);
+}
+
+#dotnet {
+    background-image: url(skill_images/dot-net-original.svg);
+}
+
+#vstudio {
+     background-image: url(skill_images/VisualStudio.svg);
+}
+
+#axure {
+    background-image: url(skill_images/axure.svg);
+}
+
+#xcode {
+     background-image: url(skill_images/xcode.svg);
+}
+
+#appcelerator {
+    background-image: url(skill_images/appcelerator.svg);
+}
+
+#photoshop {
+    background-image: url(skill_images/photoshop.svg);
+}
+
+#illustrator {
+    background-image: url(skill_images/adobe-illustrator-cc.svg);
+}
+
+#research {
+    background-image: url(skill_images/research.svg);
+}
+
+#prototyping {
+    background-image: url(skill_images/prototype.svg);
+}
+
+#testing {
+    background-image: url(skill_images/testing.svg);
+}
+
+#wireframes {
+    background-image: url(skill_images/wireframe.svg);
+}
+
+#processflows {
+    background-image: url(skill_images/process.svg);
+}
+
+#sitemaps {
+    background-image: url(skill_images/sitemap.svg);
+}
+
+#writing {
+    background-image: url(skill_images/writing.svg);
+}
+
+#agile {
+    background-image: url(skill_images/agile.svg);
+}
+
+#platforms {
+    background-image: url(skill_images/platform.svg);
+}
