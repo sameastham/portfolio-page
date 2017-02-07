@@ -659,8 +659,8 @@ h1.portfolio {
 }
 
 @media (max-width: 525px) {
-    .portfolio-lightbox .modal-body {
-        
+    h1.experience {
+        font-size: 15vw;
     }
 }
 
