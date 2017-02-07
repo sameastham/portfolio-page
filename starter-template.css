@@ -594,7 +594,7 @@ h1.portfolio {
 
 .portfolio-lightbox .modal-body {
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
 }
 
 #renovistics-lightbox-image {
@@ -606,7 +606,7 @@ h1.portfolio {
 }
 
 #ux-research-lightbox-image {
-    background-image: url(portfolio/UX-Research-Process-test.jpg);
+    background-image: url(portfolio/UX-Research-Process.jpg);
 }
 
 #accessibility-guidelines-lightbox-image {
@@ -660,8 +660,7 @@ h1.portfolio {
 
 @media (max-width: 525px) {
     .portfolio-lightbox .modal-body {
-        background-repeat: no-repeat;
-        background-size: contain;
+        
     }
 }
 
