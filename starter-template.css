@@ -7,10 +7,37 @@ body {
   padding-top: 50px;
     background-color: #6e6b5b;
     font-family: 'MFRooneySans', sans-serif;
+    background-image: url(Background-mobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+#portfolio-mobile-header {
+    display: inline;
+}
+
+#portfolio-desktop-header {
+    display: none;
+}
+
+@media (min-width: 415px) {
+    #iphone-background {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) {
-    
+    #iphone-background {
+        display: none;
+    }
+    #portfolio-mobile-header {
+        display: none;
+    }
+    #portfolio-desktop-header {
+        display: inline;
+    } 
 }
 
 section {
@@ -29,21 +56,12 @@ section {
     display: none;
 }
 
-body {
-        background-image: url(Background-mobile.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top;
-        background-attachment: fixed;
-}
-
 @media (min-width: 510px) {
     body {
         background-image: url(face_circle.png), url(Background-mobile.jpg);
         background-size: 112px, cover;
         background-repeat: no-repeat, no-repeat;
-        background-attachment: scroll, top;
-        background-position: 51px 77px, top;
+        background-position: 51px 77px, bottom;
         background-attachment: scroll, fixed;
     }
 }
@@ -451,11 +469,18 @@ h1.experience {
 }
 
 @media (max-width: 767px) {
-       #DownloadButtonContainer {
+   #DownloadButtonContainer {
         text-align: center;
-        padding-top: 1em;
+        margin-top: -30px;
+        padding-top: 4em;
         padding-bottom: 3em;
         background-color: #1E3345;
+    }
+}
+
+@media (max-width: 992px) and (min-width:768px) {
+    #portfolio-chevron {
+        margin-bottom: 2.15em;
     }
 }
 
